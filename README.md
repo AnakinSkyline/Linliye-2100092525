@@ -1,4 +1,4 @@
-# linliye.github.io
+# anakinskyline.github.io
 Assignment repository for my PKU intro to computer science class
 
 Author: 林立业， 2100092525，北大经院本科生
@@ -7,7 +7,7 @@ Author: 林立业， 2100092525，北大经院本科生
 学号：2100092525 姓名：林立业
 
 # 1. 作业1
-1.1 世界地图：formula1_2024_race_calendar_map.html
+[1.1 世界地图：](https://anakinskyline.github.io/formula1_2024_race_calendar_map.html)
 1.2 中国地图：
 1.3 组合图表:
 1.4 词频统计图： 
