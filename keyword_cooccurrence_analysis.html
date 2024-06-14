@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+</head>
+<body >
+    <div id="06f2329c2ef448e7976346a4843198c8" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_06f2329c2ef448e7976346a4843198c8 = echarts.init(
+            document.getElementById('06f2329c2ef448e7976346a4843198c8'), 'white', {renderer: 'canvas'});
+        var option_06f2329c2ef448e7976346a4843198c8 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "graph",
+            "layout": "force",
+            "symbolSize": 10,
+            "circular": {
+                "rotateLabel": false
+            },
+            "force": {
+                "repulsion": 5000,
+                "gravity": 0.2,
+                "edgeLength": [
+                    10,
+                    50
+                ],
+                "friction": 0.6,
+                "layoutAnimation": true
+            },
+            "label": {
+                "show": true,
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "roam": true,
+            "draggable": false,
+            "focusNodeAdjacency": true,
+            "data": [
+                {
+                    "name": "AI",
+                    "fixed": false,
+                    "value": 20,
+                    "symbolSize": 40,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "ChatGPT",
+                    "fixed": false,
+                    "value": 11,
+                    "symbolSize": 22,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "machine learning",
+                    "fixed": false,
+                    "value": 3,
+                    "symbolSize": 6,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "DALL-E",
+                    "fixed": false,
+                    "value": 6,
+                    "symbolSize": 12,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "OpenAI",
+                    "fixed": false,
+                    "value": 9,
+                    "symbolSize": 18,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "GPT-3",
+                    "fixed": false,
+                    "value": 6,
+                    "symbolSize": 12,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "BERT",
+                    "fixed": false,
+                    "value": 4,
+                    "symbolSize": 8,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "Google",
+                    "fixed": false,
+                    "value": 7,
+                    "symbolSize": 14,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "DeepMind",
+                    "fixed": false,
+                    "value": 3,
+                    "symbolSize": 6,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "Meta",
+                    "fixed": false,
+                    "value": 3,
+                    "symbolSize": 6,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                }
+            ],
+            "categories": [
+                {
+                    "name": "Keyword"
+                }
+            ],
+            "edgeLabel": {
+                "show": false,
+                "margin": 8
+            },
+            "edgeSymbol": [
+                null,
+                null
+            ],
+            "edgeSymbolSize": 10,
+            "links": [
+                {
+                    "source": "AI",
+                    "target": "ChatGPT",
+                    "value": 6,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "AI",
+                    "target": "machine learning",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "AI",
+                    "target": "DALL-E",
+                    "value": 3,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "AI",
+                    "target": "OpenAI",
+                    "value": 3,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "AI",
+                    "target": "GPT-3",
+                    "value": 2,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "AI",
+                    "target": "BERT",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "AI",
+                    "target": "Google",
+                    "value": 2,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "AI",
+                    "target": "DeepMind",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "AI",
+                    "target": "Meta",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "ChatGPT",
+                    "target": "AI",
+                    "value": 6,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "ChatGPT",
+                    "target": "machine learning",
+                    "value": 2,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "ChatGPT",
+                    "target": "DALL-E",
+                    "value": 2,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "ChatGPT",
+                    "target": "OpenAI",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "machine learning",
+                    "target": "AI",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "machine learning",
+                    "target": "ChatGPT",
+                    "value": 2,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "DALL-E",
+                    "target": "AI",
+                    "value": 3,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "DALL-E",
+                    "target": "ChatGPT",
+                    "value": 2,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "DALL-E",
+                    "target": "OpenAI",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "OpenAI",
+                    "target": "AI",
+                    "value": 3,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "OpenAI",
+                    "target": "GPT-3",
+                    "value": 2,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "OpenAI",
+                    "target": "BERT",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "OpenAI",
+                    "target": "Google",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "OpenAI",
+                    "target": "ChatGPT",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "OpenAI",
+                    "target": "DALL-E",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "GPT-3",
+                    "target": "AI",
+                    "value": 2,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "GPT-3",
+                    "target": "OpenAI",
+                    "value": 2,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "GPT-3",
+                    "target": "BERT",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "GPT-3",
+                    "target": "Google",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "BERT",
+                    "target": "AI",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "BERT",
+                    "target": "OpenAI",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "BERT",
+                    "target": "GPT-3",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "BERT",
+                    "target": "Google",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "Google",
+                    "target": "AI",
+                    "value": 2,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "Google",
+                    "target": "OpenAI",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "Google",
+                    "target": "GPT-3",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "Google",
+                    "target": "BERT",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "Google",
+                    "target": "DeepMind",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "Google",
+                    "target": "Meta",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "DeepMind",
+                    "target": "AI",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "DeepMind",
+                    "target": "Google",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "DeepMind",
+                    "target": "Meta",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "Meta",
+                    "target": "AI",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "Meta",
+                    "target": "DeepMind",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "Meta",
+                    "target": "Google",
+                    "value": 1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                }
+            ]
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Keyword"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "Keyword Co-occurrence in Generative AI",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_06f2329c2ef448e7976346a4843198c8.setOption(option_06f2329c2ef448e7976346a4843198c8);
+    </script>
+</body>
+</html>
