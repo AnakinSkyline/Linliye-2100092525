@@ -10,7 +10,7 @@ Author: 林立业， 2100092525，北大经院本科生
 1.1 世界地图：
 1.2 中国地图：
 1.3 组合图表:
-1.4 词频统计图:
+1.4 词频统计图:https://github.com/AnakinSkyline/linliye.github.io/blob/main/what_is_generative_ai_wordcloud.html
 
 
 # 2. 作业2
