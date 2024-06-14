@@ -8,7 +8,7 @@ Author: 林立业， 2100092525，北大经院本科生
 
 # 1. 作业1
 [1.1 世界地图：2024 年一级方程式赛车赛历（4 个季度](https://anakinskyline.github.io/formula1_2024_race_calendar_map.html)
-[1.2 中国地图：林俊杰在中国大陆的演唱会路线](https://anakinskyline.github.io/JJ20世界巡回演唱会（中国大陆).html)
+[1.2 中国地图：林俊杰在中国大陆的演唱会路线](https://anakinskyline.github.io/JJ20世界巡回演唱(中国大陆).html)
 [1.3 组合图表:6国的GDP分析](https://anakinskyline.github.io/formula1_2024_race_calendar_map.html)
 [1.4 词频统计图：麦肯锡 "What is Generative AI?" 词云图] (https://anakinskyline.github.io/)
 
