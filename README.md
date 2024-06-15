@@ -1,5 +1,5 @@
 # anakinskyline.github.io
-Assignment repository for my PKU intro to computer science class
+Hello this page contains my assignment repository for my PKU intro to computer science class
 
 Author: 林立业， 2100092525，北大经院本科生
 
